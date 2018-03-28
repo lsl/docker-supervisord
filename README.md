@@ -7,7 +7,7 @@ Example usage:
 ```
 FROM alpine
 
-COPY --from=lslio/supervisord:latest /usr/bin/supervisord /usr/bin/supervisord
+COPY --from=lslio/supervisord:latest /usr/local/bin/supervisord /usr/local/bin/supervisord
 
 COPY . /apps
 
